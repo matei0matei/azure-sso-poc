@@ -1,6 +1,16 @@
 # Compiled class file
 *.class
 
+#IDEA files
+.idea/
+
+#VS Code files
+.vscode/
+
+#Angular files
+node_modules/
+.angular
+
 # Log file
 *.log
 
