@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HelloNameComponent } from "./hello-name/hello-name.component";
-import { HelloComponent } from "./hello/hello.component";
+import { Oauth2CallbackComponent } from "./oauth2-callback/oauth2-callback.component";
+import { UserInfoComponent } from "./user-info/user-info.component";
+import { HomeComponent } from "./home/home.component";
 import {CommonModule} from "@angular/common";
 
 const routes: Routes = [
-  { path: 'hello', component: HelloComponent },
-  { path: 'hello-name', component: HelloNameComponent }
+  { path: 'oauth2-callback', component: Oauth2CallbackComponent },
+  { path: 'user-info', component: UserInfoComponent },
+  { path: 'home', component: HomeComponent }
 ];
 
 @NgModule({

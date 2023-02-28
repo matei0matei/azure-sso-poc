@@ -5,8 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from "@angular/material/button";
-import { HelloComponent } from './hello/hello.component';
-import { HelloNameComponent } from './hello-name/hello-name.component';
+import { Oauth2CallbackComponent } from './oauth2-callback/oauth2-callback.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HomeComponent } from './home/home.component';
 import {MatIconModule} from "@angular/material/icon";
 import {HttpClientModule} from "@angular/common/http";
 import {MatFormFieldModule} from "@angular/material/form-field";
@@ -18,8 +19,9 @@ import {OAuthModule} from "angular-oauth2-oidc";
 @NgModule({
   declarations: [
     AppComponent,
-    HelloComponent,
-    HelloNameComponent
+    Oauth2CallbackComponent,
+    UserInfoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

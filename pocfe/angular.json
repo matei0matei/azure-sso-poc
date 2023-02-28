@@ -104,5 +104,12 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false,
+    "cache": {
+      // prevents ng cache to ease development
+      "enabled": false
+    }
   }
 }

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HelloComponent } from './hello.component';
+import { Oauth2CallbackComponent } from './oauth2-callback.component';
 
-describe('HelloComponent', () => {
-  let component: HelloComponent;
-  let fixture: ComponentFixture<HelloComponent>;
+describe('Oauth2CallbackComponent', () => {
+  let component: Oauth2CallbackComponent;
+  let fixture: ComponentFixture<Oauth2CallbackComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HelloComponent ]
+      declarations: [ Oauth2CallbackComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HelloComponent);
+    fixture = TestBed.createComponent(Oauth2CallbackComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
